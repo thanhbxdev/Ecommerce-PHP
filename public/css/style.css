@@ -1,0 +1,254 @@
+@font-face {
+    font-family: pro1014;
+    src: url(../font/Roboto-Light.ttf);
+}
+
+.container-fluid {
+    background-color: #c8cdd5;
+    font-family: 'pro1014';
+}
+
+#hdtop {
+    background-color: #cd1817;
+    height: 60px;
+    margin: 0px;
+    padding: 0px 3%;
+}
+
+#tlogo {
+    margin-top: 8px;
+}
+
+#tsearch {
+    float: left;
+    margin-top: 10px;
+}
+
+#tsearch>form {
+    float: left;
+}
+
+#tsearch>form>input {
+    float: left;
+    outline: none;
+    border: none;
+    height: 38px;
+    width: 530px;
+    padding: 0 0 0 16px;
+    border-radius: 3px 0px 0px 3px;
+}
+
+#tsearch>form>button {
+    float: left;
+    outline: none;
+    border: none;
+    height: 38px;
+    width: 58px;
+    background-color: #333;
+    border-radius: 0px 3px 3px 0px;
+}
+
+#hdmn {
+    clear: both;
+}
+
+#hdmn ul li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+#hdmn ul li a {
+    clear: both;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+#hdmn ul li a span {
+    font-size: 13px;
+}
+
+
+/* End hdtop */
+
+#hdmenu {
+    background-color: #252525;
+    height: 36px;
+    margin: 0px;
+}
+
+#hdmenu ul {
+    margin: 0px 5%;
+}
+
+#hdmenu ul li {
+    float: left;
+    list-style: none;
+    line-height: 36px;
+    margin-right: 30px;
+}
+
+#hdmenu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+#hdmenu ul li a i {
+    font-size: 25px;
+    /* line-height: 36px; */
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+#hdmenu ul li a span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#hdmenu ul li a span:hover {
+    opacity: 80%;
+}
+
+
+/* End Header Menu  */
+
+#slide {
+    padding: 5px 0px;
+    border-radius: 5px;
+    box-shadow: 5px;
+    border: 1px solid #d5deef;
+    background-color: #FFFFFF;
+}
+
+#right-slide,
+#right-slide-one,
+#right-slide-t {
+    margin-top: 5px;
+}
+
+#right-slide .tt-slide {
+    position: relative;
+}
+
+#right-slide .tt-slide a {
+    text-decoration: none;
+}
+
+#right-slide .tt-slide a:hover {
+    color: black;
+}
+
+#right-slide .tt-slide>span {
+    font-weight: bold;
+    color: #6C7589;
+}
+
+#right-slide .tt-slide a span {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.img-tt-silde a {
+    text-decoration: none;
+    color: black;
+}
+
+.img-tt-silde a:hover {
+    color: black;
+    text-decoration: none;
+    opacity: 90%;
+}
+
+.img-tt-silde span {
+    margin-left: 10px;
+}
+
+
+/* End Slide  */
+
+#category {
+    margin-top: 20px;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 5px;
+    border: 1px solid #d5deef;
+    background-color: #FFFFFF;
+}
+
+#cate a:hover {
+    text-decoration: none;
+}
+
+#cate {
+    background-color: white;
+    opacity: 80%;
+    border-right: 2px solid rgba(0, 0, 0, .05);
+    border-bottom: 2px solid rgba(0, 0, 0, .05);
+    text-align: center;
+    display: inline-block;
+}
+
+#cate:hover {
+    background-color: #f1f4f8;
+    /* box-shadow: 2px #888888; */
+}
+
+
+/* End Cate  */
+
+#sale-hot {
+    margin-top: 20px;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 5px;
+    border: 1px solid #d5deef;
+    background-color: #FFFFFF;
+}
+
+#prdSmall {
+    text-align: center;
+    display: inline-block;
+    padding: 0px;
+}
+
+#prdSmall:hover {
+    border: 1px solid #d5deef;
+    background-color: #f1f4f8;
+    border-radius: 5px;
+}
+
+
+/* End Sale  */
+
+#nav ul {
+    list-style: none;
+    padding: 0px 50px;
+}
+
+#nav a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+#nav ul li {
+    padding: 3px 0px;
+}
+
+#nav .col-md-3 {
+    padding: 20px 0px 0px 0px;
+}
+
+
+/* End Nav Footer  */
+
+#nav-text {
+    padding-bottom: 10px;
+}
